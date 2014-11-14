@@ -9,14 +9,14 @@
 > whenever the app is first launched this method is used. It refers to listview to create the list of playable pictures.
 
 *listview()* 
-> creates the list of playable scenarios refers to:
+> creates the list of playable scenarios. using ArrayAdapter  to convert the data.
 
 *onCreateOptionsMenu()*
 > creates options for 3 difficulty levels, easy medium and hard. Easy medium and hard are going to be stored as a list with 
 different values to make sure that in the future if a different difficulty level has to be added, it is easier to do so.
 
-*onOptionsItemSelected() *
-> whenever an option is selected this class fires and returns the id of that item. 
+*onOptionsItemSelected()*
+> whenever an option is selected this class fires and returns the id of that item. it is used to see which option was selected or which picture was selected. In the first case it stores this value, in the latter case it creates an intent and starts the game.
 
 **Methods in the game screen**
 
@@ -29,7 +29,7 @@ different values to make sure that in the future if a different difficulty level
 > retrieve data and continue game. returns id's in their last location
 
 *resizeBitmap()*
-> resizes bitmaps to fit the screen. returns images
+> resizes bitmaps to fit the screen. returns images, will use Bitmap class.
 
 *gridView()* 
 > creates a grid with the bitmaps.
@@ -49,4 +49,6 @@ different values to make sure that in the future if a different difficulty level
 > swaps tiles if checktiles returns true. returns new grid.
 
 *cropBitmap()*
-> crop bitmaps and give them an ID.
+> crop bitmaps and give them an ID. using this API:  
+> Bitmap.createBitmap(Bitmap bitmap, intx, int y, int width, int height); will be used
+
