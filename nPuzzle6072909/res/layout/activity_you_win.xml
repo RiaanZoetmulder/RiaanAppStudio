@@ -16,6 +16,12 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Congratulations, You Win!!" />
+     <ImageView 
+   		android:id="@+id/victoryscreen"
+   		android:src="@drawable/victoryscreen"
+   		android:layout_width="360dp"
+   		android:layout_height="200dp"
+   />
     
     <!--  creates a button which links back to first screen -->
      <Button 

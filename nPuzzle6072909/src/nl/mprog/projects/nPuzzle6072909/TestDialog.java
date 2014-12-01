@@ -1,4 +1,4 @@
-package nl.mprog.projects.nPuzzle6072909;
+package nl.mprog.projects.npuzzle6072909;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

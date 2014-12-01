@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="nl.mprog.projects.nPuzzle6072909.YouWin" >
+    tools:context="nl.mprog.projects.npuzzle6072909.YouWin" >
 
     <item
         android:id="@+id/action_settings"

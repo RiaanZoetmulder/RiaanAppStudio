@@ -11,8 +11,4 @@
 		android:id="@+id/back"
 		android:title="back"
 		android:icon="@android:drawable/ic_menu_myplaces" />
-	<item 
-	    android:id="@+id/mockvictory"
-	    android:title="mockvictory"
-	    android:icon ="@android:drawable/ic_menu_myplaces"/>
 </menu>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nl.mprog.projects.nPuzzle6072909"
+    package="nl.mprog.projects.npuzzle6072909"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,10 +22,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GamePlay" />
+        <activity
+            android:name=".GamePlay"
+            android:label="@string/title_activity_game_play" >
+        </activity>
+        <activity
+            android:name=".TestDialog"
+            android:label="@string/title_activity_test_dialog" >
+        </activity>
         <activity
             android:name=".YouWin"
             android:label="@string/title_activity_you_win" >
+        </activity>
+        <activity
+            android:name=".CustomView"
+            android:label="@string/title_activity_custom_view" >
         </activity>
     </application>
 

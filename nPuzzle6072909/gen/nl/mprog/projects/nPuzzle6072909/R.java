@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package nl.mprog.projects.nPuzzle6072909;
+package nl.mprog.projects.npuzzle6072909;
 
 public final class R {
     public static final class anim {
@@ -272,17 +272,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonBarStyle=0x7f01002e;
-        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td> Push object to the top of its container, not changing its size. </td></tr>
-<tr><td><code>bottom</code></td><td>0x50</td><td> Push object to the bottom of its container, not changing its size. </td></tr>
-</table>
-         */
-        public static final int buttonGravity=0x7f010093;
         /**  Close button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -293,10 +282,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int closeItemLayout=0x7f01006d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /**  Text to set as the content description for the collapse button. 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int collapseContentDescription=0x7f010094;
+        /**  Icon drawable to use for the collapse button. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010094;
+        public static final int collapseIcon=0x7f010093;
         /**  The drawing color for the bars 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -1636,81 +1635,86 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
+        public static final int darthvader=0x7f020033;
+        public static final int ic_launcher=0x7f020034;
+        public static final int lukesky=0x7f020035;
+        public static final int victoryscreen=0x7f020036;
     }
     public static final class id {
-        public static final int Difficult=0x7f090043;
-        public static final int Easy=0x7f090042;
-        public static final int Hard=0x7f090044;
-        public static final int action_bar=0x7f090033;
+        public static final int Difficult=0x7f090040;
+        public static final int Easy=0x7f09003f;
+        public static final int Hard=0x7f090041;
+        public static final int action_bar=0x7f090031;
         public static final int action_bar_activity_content=0x7f090003;
-        public static final int action_bar_container=0x7f090032;
-        public static final int action_bar_root=0x7f09002e;
+        public static final int action_bar_container=0x7f090030;
+        public static final int action_bar_root=0x7f09002c;
         public static final int action_bar_spinner=0x7f090002;
-        public static final int action_bar_subtitle=0x7f090021;
-        public static final int action_bar_title=0x7f090020;
-        public static final int action_context_bar=0x7f090034;
+        public static final int action_bar_subtitle=0x7f09001f;
+        public static final int action_bar_title=0x7f09001e;
+        public static final int action_context_bar=0x7f090032;
         public static final int action_menu_divider=0x7f090005;
         public static final int action_menu_presenter=0x7f090006;
-        public static final int action_mode_bar=0x7f090030;
-        public static final int action_mode_bar_stub=0x7f09002f;
-        public static final int action_mode_close_button=0x7f090022;
-        public static final int action_settings=0x7f090049;
-        public static final int activity_chooser_view_content=0x7f090023;
+        public static final int action_mode_bar=0x7f09002e;
+        public static final int action_mode_bar_stub=0x7f09002d;
+        public static final int action_mode_close_button=0x7f090020;
+        public static final int action_settings=0x7f090048;
+        public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
-        public static final int back=0x7f090047;
+        public static final int back=0x7f09004b;
         public static final int beginning=0x7f09001b;
-        public static final int bottom=0x7f09001e;
-        public static final int changedifficulty=0x7f090045;
-        public static final int checkbox=0x7f09002b;
+        public static final int changedifficulty=0x7f090049;
+        public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090015;
-        public static final int decor_content_parent=0x7f090031;
-        public static final int default_activity_button=0x7f090026;
+        public static final int decor_content_parent=0x7f09002f;
+        public static final int default_activity_button=0x7f090024;
         public static final int dialog=0x7f090019;
         public static final int disableHome=0x7f09000d;
         public static final int dropdown=0x7f09001a;
-        public static final int edit_query=0x7f090035;
+        public static final int edit_query=0x7f090033;
         public static final int end=0x7f09001c;
-        public static final int expand_activities_button=0x7f090024;
-        public static final int expanded_menu=0x7f09002a;
+        public static final int expand_activities_button=0x7f090022;
+        public static final int expanded_menu=0x7f090028;
+        public static final int gridview=0x7f090045;
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09000e;
-        public static final int icon=0x7f090028;
+        public static final int icon=0x7f090026;
         public static final int ifRoom=0x7f090016;
-        public static final int image=0x7f090025;
+        public static final int image=0x7f090023;
+        public static final int img=0x7f090046;
         public static final int listMode=0x7f09000a;
-        public static final int list_item=0x7f090027;
+        public static final int list_item=0x7f090025;
         public static final int middle=0x7f09001d;
-        public static final int mockvictory=0x7f090048;
-        public static final int my_returnbutton=0x7f090041;
+        public static final int my_returnbutton=0x7f090042;
         public static final int never=0x7f090017;
         public static final int none=0x7f09000f;
         public static final int normal=0x7f09000b;
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
-        public static final int radio=0x7f09002d;
-        public static final int search_badge=0x7f090037;
-        public static final int search_bar=0x7f090036;
-        public static final int search_button=0x7f090038;
-        public static final int search_close_btn=0x7f09003d;
-        public static final int search_edit_frame=0x7f090039;
-        public static final int search_go_btn=0x7f09003f;
-        public static final int search_mag_icon=0x7f09003a;
-        public static final int search_plate=0x7f09003b;
-        public static final int search_src_text=0x7f09003c;
-        public static final int search_voice_btn=0x7f090040;
-        public static final int shortcut=0x7f09002c;
+        public static final int radio=0x7f09002b;
+        public static final int root_layout=0x7f090044;
+        public static final int search_badge=0x7f090035;
+        public static final int search_bar=0x7f090034;
+        public static final int search_button=0x7f090036;
+        public static final int search_close_btn=0x7f09003b;
+        public static final int search_edit_frame=0x7f090037;
+        public static final int search_go_btn=0x7f09003d;
+        public static final int search_mag_icon=0x7f090038;
+        public static final int search_plate=0x7f090039;
+        public static final int search_src_text=0x7f09003a;
+        public static final int search_voice_btn=0x7f09003e;
+        public static final int shortcut=0x7f09002a;
         public static final int showCustom=0x7f090010;
         public static final int showHome=0x7f090011;
         public static final int showTitle=0x7f090012;
-        public static final int shuffle=0x7f090046;
+        public static final int shuffle=0x7f09004a;
         public static final int split_action_bar=0x7f090004;
-        public static final int submit_area=0x7f09003e;
+        public static final int submit_area=0x7f09003c;
         public static final int tabMode=0x7f09000c;
-        public static final int title=0x7f090029;
-        public static final int top=0x7f09001f;
+        public static final int title=0x7f090027;
+        public static final int txt=0x7f090047;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
+        public static final int victoryscreen=0x7f090043;
         public static final int withText=0x7f090018;
         public static final int wrap_content=0x7f090009;
     }
@@ -1763,16 +1767,20 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_you_win=0x7f030017;
-        public static final int gameplay_layout=0x7f030018;
-        public static final int list_container=0x7f030019;
-        public static final int options_menu_imageselection=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_image_selection=0x7f030017;
+        public static final int activity_you_win=0x7f030018;
+        public static final int custom_view=0x7f030019;
+        public static final int gameplay_layout=0x7f03001a;
+        public static final int gridview=0x7f03001b;
+        public static final int list_container=0x7f03001c;
+        public static final int listobjects=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
-        public static final int gameplaymenu=0x7f0d0000;
-        public static final int image_selection=0x7f0d0001;
-        public static final int you_win=0x7f0d0002;
+        public static final int custom_view=0x7f0d0000;
+        public static final int gameplaymenu=0x7f0d0001;
+        public static final int image_selection=0x7f0d0002;
+        public static final int you_win=0x7f0d0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1784,13 +1792,13 @@ containing a value of this type.
          %1$s is the title. %2$s is the description of what tapping/clicking the whole
          thing is going to do. 
          */
-        public static final int abc_action_bar_home_description_format=0x7f0a0004;
+        public static final int abc_action_bar_home_description_format=0x7f0a0005;
         /**  Just like action_bar_home_description_format, but this one will be used
          if the window is also providing subtitle text.
          %1$s is the title. %2$s is the subtitle. %3$s is the description of what
          tapping/clicking the whole thing is going to do. 
          */
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f0a0005;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f0a0006;
         /**  Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_up_description=0x7f0a0002;
@@ -1802,36 +1810,42 @@ containing a value of this type.
         public static final int abc_action_mode_done=0x7f0a0000;
         /**  Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] 
          */
-        public static final int abc_activity_chooser_view_see_all=0x7f0a000c;
+        public static final int abc_activity_chooser_view_see_all=0x7f0a000d;
         /**  ActivityChooserView - accessibility support 
  Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] 
          */
-        public static final int abc_activitychooserview_choose_application=0x7f0a000b;
+        public static final int abc_activitychooserview_choose_application=0x7f0a000c;
         /**  SearchView accessibility description for clear button [CHAR LIMIT=NONE] 
          */
-        public static final int abc_searchview_description_clear=0x7f0a0008;
+        public static final int abc_searchview_description_clear=0x7f0a0009;
         /**  SearchView accessibility description for search text field [CHAR LIMIT=NONE] 
          */
-        public static final int abc_searchview_description_query=0x7f0a0007;
+        public static final int abc_searchview_description_query=0x7f0a0008;
         /**  SearchView accessibility description for search button [CHAR LIMIT=NONE] 
          */
-        public static final int abc_searchview_description_search=0x7f0a0006;
+        public static final int abc_searchview_description_search=0x7f0a0007;
         /**  SearchView accessibility description for submit button [CHAR LIMIT=NONE] 
          */
-        public static final int abc_searchview_description_submit=0x7f0a0009;
+        public static final int abc_searchview_description_submit=0x7f0a000a;
         /**  SearchView accessibility description for voice button [CHAR LIMIT=NONE] 
          */
-        public static final int abc_searchview_description_voice=0x7f0a000a;
+        public static final int abc_searchview_description_voice=0x7f0a000b;
         /**  Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static final int abc_shareactionprovider_share_with=0x7f0a000e;
+        public static final int abc_shareactionprovider_share_with=0x7f0a000f;
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static final int abc_shareactionprovider_share_with_application=0x7f0a000d;
-        public static final int action_settings=0x7f0a0011;
-        public static final int app_name=0x7f0a000f;
-        public static final int hello_world=0x7f0a0010;
-        public static final int title_activity_you_win=0x7f0a0012;
+        public static final int abc_shareactionprovider_share_with_application=0x7f0a000e;
+        /**  Content description for the Toolbar icon used to collapse an expanded action mode. [CHAR LIMIT=NONE] 
+         */
+        public static final int abc_toolbar_collapse_description=0x7f0a0004;
+        public static final int action_settings=0x7f0a0012;
+        public static final int app_name=0x7f0a0010;
+        public static final int hello_world=0x7f0a0011;
+        public static final int title_activity_custom_view=0x7f0a0016;
+        public static final int title_activity_game_play=0x7f0a0013;
+        public static final int title_activity_test_dialog=0x7f0a0014;
+        public static final int title_activity_you_win=0x7f0a0015;
     }
     public static final class style {
         /** 
@@ -2190,35 +2204,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background nl.mprog.projects.nPuzzle6072909:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit nl.mprog.projects.nPuzzle6072909:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked nl.mprog.projects.nPuzzle6072909:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd nl.mprog.projects.nPuzzle6072909:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft nl.mprog.projects.nPuzzle6072909:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight nl.mprog.projects.nPuzzle6072909:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart nl.mprog.projects.nPuzzle6072909:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout nl.mprog.projects.nPuzzle6072909:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions nl.mprog.projects.nPuzzle6072909:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #ActionBar_divider nl.mprog.projects.nPuzzle6072909:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #ActionBar_elevation nl.mprog.projects.nPuzzle6072909:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
-           <tr><td><code>{@link #ActionBar_height nl.mprog.projects.nPuzzle6072909:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll nl.mprog.projects.nPuzzle6072909:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator nl.mprog.projects.nPuzzle6072909:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout nl.mprog.projects.nPuzzle6072909:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_icon nl.mprog.projects.nPuzzle6072909:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle nl.mprog.projects.nPuzzle6072909:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding nl.mprog.projects.nPuzzle6072909:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
+           <tr><td><code>{@link #ActionBar_background nl.mprog.projects.npuzzle6072909:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit nl.mprog.projects.npuzzle6072909:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked nl.mprog.projects.npuzzle6072909:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd nl.mprog.projects.npuzzle6072909:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft nl.mprog.projects.npuzzle6072909:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight nl.mprog.projects.npuzzle6072909:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart nl.mprog.projects.npuzzle6072909:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout nl.mprog.projects.npuzzle6072909:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions nl.mprog.projects.npuzzle6072909:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider nl.mprog.projects.npuzzle6072909:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_elevation nl.mprog.projects.npuzzle6072909:elevation}</code></td><td> Elevation for the action bar itself </td></tr>
+           <tr><td><code>{@link #ActionBar_height nl.mprog.projects.npuzzle6072909:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll nl.mprog.projects.npuzzle6072909:hideOnContentScroll}</code></td><td> Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator nl.mprog.projects.npuzzle6072909:homeAsUpIndicator}</code></td><td> Up navigation glyph </td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout nl.mprog.projects.npuzzle6072909:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon nl.mprog.projects.npuzzle6072909:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle nl.mprog.projects.npuzzle6072909:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding nl.mprog.projects.npuzzle6072909:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_logo nl.mprog.projects.nPuzzle6072909:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode nl.mprog.projects.nPuzzle6072909:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme nl.mprog.projects.nPuzzle6072909:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #ActionBar_logo nl.mprog.projects.npuzzle6072909:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode nl.mprog.projects.npuzzle6072909:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme nl.mprog.projects.npuzzle6072909:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding nl.mprog.projects.nPuzzle6072909:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle nl.mprog.projects.nPuzzle6072909:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle nl.mprog.projects.nPuzzle6072909:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle nl.mprog.projects.nPuzzle6072909:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionBar_title nl.mprog.projects.nPuzzle6072909:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle nl.mprog.projects.nPuzzle6072909:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding nl.mprog.projects.npuzzle6072909:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle nl.mprog.projects.npuzzle6072909:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle nl.mprog.projects.npuzzle6072909:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle nl.mprog.projects.npuzzle6072909:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title nl.mprog.projects.npuzzle6072909:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle nl.mprog.projects.npuzzle6072909:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2266,7 +2280,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:background
+          @attr name nl.mprog.projects.npuzzle6072909:background
         */
         public static final int ActionBar_background = 11;
         /**
@@ -2280,7 +2294,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:backgroundSplit
+          @attr name nl.mprog.projects.npuzzle6072909:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 13;
         /**
@@ -2294,7 +2308,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:backgroundStacked
+          @attr name nl.mprog.projects.npuzzle6072909:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 12;
         /**
@@ -2313,7 +2327,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetEnd
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 22;
         /**
@@ -2332,7 +2346,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetLeft
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 23;
         /**
@@ -2351,7 +2365,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetRight
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 24;
         /**
@@ -2370,7 +2384,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetStart
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 21;
         /**
@@ -2382,7 +2396,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:customNavigationLayout
+          @attr name nl.mprog.projects.npuzzle6072909:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 14;
         /**
@@ -2406,7 +2420,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:displayOptions
+          @attr name nl.mprog.projects.npuzzle6072909:displayOptions
         */
         public static final int ActionBar_displayOptions = 4;
         /**
@@ -2418,7 +2432,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:divider
+          @attr name nl.mprog.projects.npuzzle6072909:divider
         */
         public static final int ActionBar_divider = 10;
         /**
@@ -2436,7 +2450,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:elevation
+          @attr name nl.mprog.projects.npuzzle6072909:elevation
         */
         public static final int ActionBar_elevation = 25;
         /**
@@ -2454,7 +2468,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:height
+          @attr name nl.mprog.projects.npuzzle6072909:height
         */
         public static final int ActionBar_height = 1;
         /**
@@ -2470,7 +2484,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:hideOnContentScroll
+          @attr name nl.mprog.projects.npuzzle6072909:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 20;
         /**
@@ -2482,7 +2496,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:homeAsUpIndicator
+          @attr name nl.mprog.projects.npuzzle6072909:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 2;
         /**
@@ -2494,7 +2508,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:homeLayout
+          @attr name nl.mprog.projects.npuzzle6072909:homeLayout
         */
         public static final int ActionBar_homeLayout = 15;
         /**
@@ -2506,7 +2520,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:icon
+          @attr name nl.mprog.projects.npuzzle6072909:icon
         */
         public static final int ActionBar_icon = 8;
         /**
@@ -2518,7 +2532,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:indeterminateProgressStyle
+          @attr name nl.mprog.projects.npuzzle6072909:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 17;
         /**
@@ -2537,7 +2551,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:itemPadding
+          @attr name nl.mprog.projects.npuzzle6072909:itemPadding
         */
         public static final int ActionBar_itemPadding = 19;
         /**
@@ -2549,7 +2563,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:logo
+          @attr name nl.mprog.projects.npuzzle6072909:logo
         */
         public static final int ActionBar_logo = 9;
         /**
@@ -2569,7 +2583,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:navigationMode
+          @attr name nl.mprog.projects.npuzzle6072909:navigationMode
         */
         public static final int ActionBar_navigationMode = 3;
         /**
@@ -2582,7 +2596,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:popupTheme
+          @attr name nl.mprog.projects.npuzzle6072909:popupTheme
         */
         public static final int ActionBar_popupTheme = 26;
         /**
@@ -2600,7 +2614,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:progressBarPadding
+          @attr name nl.mprog.projects.npuzzle6072909:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 18;
         /**
@@ -2612,7 +2626,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:progressBarStyle
+          @attr name nl.mprog.projects.npuzzle6072909:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 16;
         /**
@@ -2628,7 +2642,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:subtitle
+          @attr name nl.mprog.projects.npuzzle6072909:subtitle
         */
         public static final int ActionBar_subtitle = 5;
         /**
@@ -2640,7 +2654,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:subtitleTextStyle
+          @attr name nl.mprog.projects.npuzzle6072909:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 7;
         /**
@@ -2656,7 +2670,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:title
+          @attr name nl.mprog.projects.npuzzle6072909:title
         */
         public static final int ActionBar_title = 0;
         /**
@@ -2668,7 +2682,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleTextStyle
+          @attr name nl.mprog.projects.npuzzle6072909:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 6;
         /**  Valid LayoutParams for views placed in the action bar as custom views. 
@@ -2720,12 +2734,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background nl.mprog.projects.nPuzzle6072909:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit nl.mprog.projects.nPuzzle6072909:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout nl.mprog.projects.nPuzzle6072909:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-           <tr><td><code>{@link #ActionMode_height nl.mprog.projects.nPuzzle6072909:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle nl.mprog.projects.nPuzzle6072909:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle nl.mprog.projects.nPuzzle6072909:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background nl.mprog.projects.npuzzle6072909:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit nl.mprog.projects.npuzzle6072909:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout nl.mprog.projects.npuzzle6072909:closeItemLayout}</code></td><td> Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+           <tr><td><code>{@link #ActionMode_height nl.mprog.projects.npuzzle6072909:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle nl.mprog.projects.npuzzle6072909:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle nl.mprog.projects.npuzzle6072909:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2747,7 +2761,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:background
+          @attr name nl.mprog.projects.npuzzle6072909:background
         */
         public static final int ActionMode_background = 3;
         /**
@@ -2761,7 +2775,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:backgroundSplit
+          @attr name nl.mprog.projects.npuzzle6072909:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
@@ -2773,7 +2787,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:closeItemLayout
+          @attr name nl.mprog.projects.npuzzle6072909:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
@@ -2791,7 +2805,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:height
+          @attr name nl.mprog.projects.npuzzle6072909:height
         */
         public static final int ActionMode_height = 0;
         /**
@@ -2803,7 +2817,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:subtitleTextStyle
+          @attr name nl.mprog.projects.npuzzle6072909:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
@@ -2815,7 +2829,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleTextStyle
+          @attr name nl.mprog.projects.npuzzle6072909:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /**  Attrbitutes for a ActivityChooserView. 
@@ -2824,8 +2838,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable nl.mprog.projects.nPuzzle6072909:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount nl.mprog.projects.nPuzzle6072909:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable nl.mprog.projects.npuzzle6072909:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount nl.mprog.projects.npuzzle6072909:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2847,7 +2861,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:expandActivityOverflowButtonDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
@@ -2863,7 +2877,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:initialActivityCount
+          @attr name nl.mprog.projects.npuzzle6072909:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
@@ -2872,7 +2886,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps nl.mprog.projects.nPuzzle6072909:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps nl.mprog.projects.npuzzle6072909:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2889,7 +2903,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAllCaps
+          @attr name nl.mprog.projects.npuzzle6072909:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2898,14 +2912,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize nl.mprog.projects.nPuzzle6072909:barSize}</code></td><td> The size of the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color nl.mprog.projects.nPuzzle6072909:color}</code></td><td> The drawing color for the bars </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize nl.mprog.projects.nPuzzle6072909:drawableSize}</code></td><td> The total size of the drawable </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars nl.mprog.projects.nPuzzle6072909:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize nl.mprog.projects.nPuzzle6072909:middleBarArrowSize}</code></td><td> The size of the middle bar when top and bottom bars merge into middle bar to form an arrow </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars nl.mprog.projects.nPuzzle6072909:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness nl.mprog.projects.nPuzzle6072909:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize nl.mprog.projects.nPuzzle6072909:topBottomBarArrowSize}</code></td><td> The size of the top and bottom bars when they merge to the middle bar to form an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize nl.mprog.projects.npuzzle6072909:barSize}</code></td><td> The size of the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color nl.mprog.projects.npuzzle6072909:color}</code></td><td> The drawing color for the bars </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize nl.mprog.projects.npuzzle6072909:drawableSize}</code></td><td> The total size of the drawable </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars nl.mprog.projects.npuzzle6072909:gapBetweenBars}</code></td><td> The max gap between the bars when they are parallel to each other </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize nl.mprog.projects.npuzzle6072909:middleBarArrowSize}</code></td><td> The size of the middle bar when top and bottom bars merge into middle bar to form an arrow </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars nl.mprog.projects.npuzzle6072909:spinBars}</code></td><td> Whether bars should rotate or not during transition </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness nl.mprog.projects.npuzzle6072909:thickness}</code></td><td> The thickness (stroke size) for the bar paint </td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize nl.mprog.projects.npuzzle6072909:topBottomBarArrowSize}</code></td><td> The size of the top and bottom bars when they merge to the middle bar to form an arrow </td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2935,7 +2949,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:barSize
+          @attr name nl.mprog.projects.npuzzle6072909:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
@@ -2952,7 +2966,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:color
+          @attr name nl.mprog.projects.npuzzle6072909:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
@@ -2970,7 +2984,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:drawableSize
+          @attr name nl.mprog.projects.npuzzle6072909:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
@@ -2988,7 +3002,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:gapBetweenBars
+          @attr name nl.mprog.projects.npuzzle6072909:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
@@ -3006,7 +3020,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:middleBarArrowSize
+          @attr name nl.mprog.projects.npuzzle6072909:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
@@ -3022,7 +3036,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:spinBars
+          @attr name nl.mprog.projects.npuzzle6072909:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
@@ -3040,7 +3054,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:thickness
+          @attr name nl.mprog.projects.npuzzle6072909:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
@@ -3058,7 +3072,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:topBottomBarArrowSize
+          @attr name nl.mprog.projects.npuzzle6072909:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3076,11 +3090,11 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td> Should the layout be a column or a row?  Use "horizontal"
              for a row, "vertical" for a column.</td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td> Defines the maximum weight sum.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider nl.mprog.projects.nPuzzle6072909:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding nl.mprog.projects.nPuzzle6072909:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild nl.mprog.projects.nPuzzle6072909:measureWithLargestChild}</code></td><td> When set to true, all children with a weight will be considered having
+           <tr><td><code>{@link #LinearLayoutCompat_divider nl.mprog.projects.npuzzle6072909:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding nl.mprog.projects.npuzzle6072909:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild nl.mprog.projects.npuzzle6072909:measureWithLargestChild}</code></td><td> When set to true, all children with a weight will be considered having
              the minimum size of the largest child.</td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers nl.mprog.projects.nPuzzle6072909:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers nl.mprog.projects.npuzzle6072909:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3158,7 +3172,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:divider
+          @attr name nl.mprog.projects.npuzzle6072909:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
@@ -3176,7 +3190,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:dividerPadding
+          @attr name nl.mprog.projects.npuzzle6072909:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
@@ -3194,7 +3208,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:measureWithLargestChild
+          @attr name nl.mprog.projects.npuzzle6072909:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
@@ -3215,7 +3229,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:showDividers
+          @attr name nl.mprog.projects.npuzzle6072909:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3380,10 +3394,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout nl.mprog.projects.nPuzzle6072909:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass nl.mprog.projects.nPuzzle6072909:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
+           <tr><td><code>{@link #MenuItem_actionLayout nl.mprog.projects.npuzzle6072909:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass nl.mprog.projects.npuzzle6072909:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass nl.mprog.projects.nPuzzle6072909:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
+           <tr><td><code>{@link #MenuItem_actionViewClass nl.mprog.projects.npuzzle6072909:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
              action view.</td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
@@ -3399,7 +3413,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction nl.mprog.projects.nPuzzle6072909:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction nl.mprog.projects.npuzzle6072909:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3437,7 +3451,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionLayout
+          @attr name nl.mprog.projects.npuzzle6072909:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
@@ -3456,7 +3470,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionProviderClass
+          @attr name nl.mprog.projects.npuzzle6072909:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
@@ -3474,7 +3488,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionViewClass
+          @attr name nl.mprog.projects.npuzzle6072909:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3630,7 +3644,7 @@ containing a value of this type.
                  larger segment of its container. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:showAsAction
+          @attr name nl.mprog.projects.npuzzle6072909:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3646,7 +3660,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td> Default appearance of menu item text.</td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td> Default vertical divider between menu items.</td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td> Default animations for the menu.</td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing nl.mprog.projects.nPuzzle6072909:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing nl.mprog.projects.npuzzle6072909:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3737,7 +3751,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:preserveIconSpacing
+          @attr name nl.mprog.projects.npuzzle6072909:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3747,7 +3761,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor nl.mprog.projects.nPuzzle6072909:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor nl.mprog.projects.npuzzle6072909:overlapAnchor}</code></td><td> Whether the popup window should overlap its anchor view.</td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3774,7 +3788,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:overlapAnchor
+          @attr name nl.mprog.projects.npuzzle6072909:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3783,7 +3797,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor nl.mprog.projects.nPuzzle6072909:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor nl.mprog.projects.npuzzle6072909:state_above_anchor}</code></td><td> State identifier indicating the popup will be above the anchor.</td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3803,7 +3817,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:state_above_anchor
+          @attr name nl.mprog.projects.npuzzle6072909:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3816,17 +3830,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon nl.mprog.projects.nPuzzle6072909:closeIcon}</code></td><td> Close button icon </td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon nl.mprog.projects.nPuzzle6072909:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
-           <tr><td><code>{@link #SearchView_goIcon nl.mprog.projects.nPuzzle6072909:goIcon}</code></td><td> Go button icon </td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault nl.mprog.projects.nPuzzle6072909:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SearchView_layout nl.mprog.projects.nPuzzle6072909:layout}</code></td><td> The layout to use for the search view.</td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground nl.mprog.projects.nPuzzle6072909:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
-           <tr><td><code>{@link #SearchView_queryHint nl.mprog.projects.nPuzzle6072909:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon nl.mprog.projects.nPuzzle6072909:searchIcon}</code></td><td> Search icon </td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground nl.mprog.projects.nPuzzle6072909:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout nl.mprog.projects.nPuzzle6072909:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon nl.mprog.projects.nPuzzle6072909:voiceIcon}</code></td><td> Voice button icon </td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon nl.mprog.projects.npuzzle6072909:closeIcon}</code></td><td> Close button icon </td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon nl.mprog.projects.npuzzle6072909:commitIcon}</code></td><td> Commit icon shown in the query suggestion row </td></tr>
+           <tr><td><code>{@link #SearchView_goIcon nl.mprog.projects.npuzzle6072909:goIcon}</code></td><td> Go button icon </td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault nl.mprog.projects.npuzzle6072909:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
+           <tr><td><code>{@link #SearchView_layout nl.mprog.projects.npuzzle6072909:layout}</code></td><td> The layout to use for the search view.</td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground nl.mprog.projects.npuzzle6072909:queryBackground}</code></td><td> Background for the section containing the search query </td></tr>
+           <tr><td><code>{@link #SearchView_queryHint nl.mprog.projects.npuzzle6072909:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon nl.mprog.projects.npuzzle6072909:searchIcon}</code></td><td> Search icon </td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground nl.mprog.projects.npuzzle6072909:submitBackground}</code></td><td> Background for the section containing the action (e.</td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout nl.mprog.projects.npuzzle6072909:suggestionRowLayout}</code></td><td> Layout for query suggestion rows </td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon nl.mprog.projects.npuzzle6072909:voiceIcon}</code></td><td> Voice button icon </td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3892,7 +3906,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:closeIcon
+          @attr name nl.mprog.projects.npuzzle6072909:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
@@ -3904,7 +3918,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:commitIcon
+          @attr name nl.mprog.projects.npuzzle6072909:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
@@ -3916,7 +3930,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:goIcon
+          @attr name nl.mprog.projects.npuzzle6072909:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
@@ -3933,7 +3947,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:iconifiedByDefault
+          @attr name nl.mprog.projects.npuzzle6072909:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
@@ -3945,7 +3959,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:layout
+          @attr name nl.mprog.projects.npuzzle6072909:layout
         */
         public static final int SearchView_layout = 4;
         /**
@@ -3957,7 +3971,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:queryBackground
+          @attr name nl.mprog.projects.npuzzle6072909:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
@@ -3973,7 +3987,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:queryHint
+          @attr name nl.mprog.projects.npuzzle6072909:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
@@ -3985,7 +3999,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:searchIcon
+          @attr name nl.mprog.projects.npuzzle6072909:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
@@ -3997,7 +4011,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:submitBackground
+          @attr name nl.mprog.projects.npuzzle6072909:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
@@ -4009,7 +4023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:suggestionRowLayout
+          @attr name nl.mprog.projects.npuzzle6072909:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
@@ -4021,7 +4035,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:voiceIcon
+          @attr name nl.mprog.projects.npuzzle6072909:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -4039,12 +4053,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled nl.mprog.projects.nPuzzle6072909:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled nl.mprog.projects.npuzzle6072909:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
              the spinner itself is enabled/disabled.</td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView nl.mprog.projects.nPuzzle6072909:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
+           <tr><td><code>{@link #Spinner_popupPromptView nl.mprog.projects.npuzzle6072909:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #Spinner_prompt nl.mprog.projects.nPuzzle6072909:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode nl.mprog.projects.nPuzzle6072909:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
+           <tr><td><code>{@link #Spinner_prompt nl.mprog.projects.npuzzle6072909:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode nl.mprog.projects.npuzzle6072909:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -4139,7 +4153,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:disableChildrenWhenDisabled
+          @attr name nl.mprog.projects.npuzzle6072909:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
@@ -4153,7 +4167,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:popupPromptView
+          @attr name nl.mprog.projects.npuzzle6072909:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
@@ -4165,7 +4179,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:prompt
+          @attr name nl.mprog.projects.npuzzle6072909:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
@@ -4185,7 +4199,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  anchored to the spinner widget itself. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:spinnerMode
+          @attr name nl.mprog.projects.npuzzle6072909:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -4197,13 +4211,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td> Text to use when the switch is in the unchecked/"off" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td> Text to use when the switch is in the checked/"on" state.</td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td> Drawable to use as the "thumb" that switches back and forth.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText nl.mprog.projects.nPuzzle6072909:showText}</code></td><td> Whether to draw on/off text.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack nl.mprog.projects.nPuzzle6072909:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth nl.mprog.projects.nPuzzle6072909:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding nl.mprog.projects.nPuzzle6072909:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance nl.mprog.projects.nPuzzle6072909:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding nl.mprog.projects.nPuzzle6072909:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
-           <tr><td><code>{@link #SwitchCompat_track nl.mprog.projects.nPuzzle6072909:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText nl.mprog.projects.npuzzle6072909:showText}</code></td><td> Whether to draw on/off text.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack nl.mprog.projects.npuzzle6072909:splitTrack}</code></td><td> Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth nl.mprog.projects.npuzzle6072909:switchMinWidth}</code></td><td> Minimum width for the switch component </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding nl.mprog.projects.npuzzle6072909:switchPadding}</code></td><td> Minimum space between the switch and caption text </td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance nl.mprog.projects.npuzzle6072909:switchTextAppearance}</code></td><td> TextAppearance style for text displayed on the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding nl.mprog.projects.npuzzle6072909:thumbTextPadding}</code></td><td> Amount of padding on either side of text within the switch thumb.</td></tr>
+           <tr><td><code>{@link #SwitchCompat_track nl.mprog.projects.npuzzle6072909:track}</code></td><td> Drawable to use as the "track" that the switch thumb slides within.</td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -4261,7 +4275,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:showText
+          @attr name nl.mprog.projects.npuzzle6072909:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
@@ -4277,7 +4291,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:splitTrack
+          @attr name nl.mprog.projects.npuzzle6072909:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
@@ -4295,7 +4309,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:switchMinWidth
+          @attr name nl.mprog.projects.npuzzle6072909:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
@@ -4313,7 +4327,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:switchPadding
+          @attr name nl.mprog.projects.npuzzle6072909:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
@@ -4325,7 +4339,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:switchTextAppearance
+          @attr name nl.mprog.projects.npuzzle6072909:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
@@ -4343,7 +4357,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:thumbTextPadding
+          @attr name nl.mprog.projects.npuzzle6072909:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
@@ -4355,7 +4369,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:track
+          @attr name nl.mprog.projects.npuzzle6072909:track
         */
         public static final int SwitchCompat_track = 3;
         /**  These are the standard attributes that make up a complete theme. 
@@ -4364,104 +4378,104 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider nl.mprog.projects.nPuzzle6072909:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground nl.mprog.projects.nPuzzle6072909:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme nl.mprog.projects.nPuzzle6072909:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #Theme_actionBarDivider nl.mprog.projects.npuzzle6072909:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground nl.mprog.projects.npuzzle6072909:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme nl.mprog.projects.npuzzle6072909:actionBarPopupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize nl.mprog.projects.nPuzzle6072909:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
+           <tr><td><code>{@link #Theme_actionBarSize nl.mprog.projects.npuzzle6072909:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
              bar used to present Action Modes.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle nl.mprog.projects.nPuzzle6072909:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle nl.mprog.projects.nPuzzle6072909:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle nl.mprog.projects.nPuzzle6072909:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle nl.mprog.projects.nPuzzle6072909:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle nl.mprog.projects.nPuzzle6072909:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme nl.mprog.projects.nPuzzle6072909:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
+           <tr><td><code>{@link #Theme_actionBarSplitStyle nl.mprog.projects.npuzzle6072909:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle nl.mprog.projects.npuzzle6072909:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle nl.mprog.projects.npuzzle6072909:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle nl.mprog.projects.npuzzle6072909:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle nl.mprog.projects.npuzzle6072909:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme nl.mprog.projects.npuzzle6072909:actionBarTheme}</code></td><td> Reference to a theme that should be used to inflate the
              action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme nl.mprog.projects.nPuzzle6072909:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme nl.mprog.projects.npuzzle6072909:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
              and layouts destined for the action bar.</td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle nl.mprog.projects.nPuzzle6072909:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle nl.mprog.projects.nPuzzle6072909:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance nl.mprog.projects.nPuzzle6072909:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
+           <tr><td><code>{@link #Theme_actionButtonStyle nl.mprog.projects.npuzzle6072909:actionButtonStyle}</code></td><td> Default action button style.</td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle nl.mprog.projects.npuzzle6072909:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance nl.mprog.projects.npuzzle6072909:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
              appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor nl.mprog.projects.nPuzzle6072909:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground nl.mprog.projects.nPuzzle6072909:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle nl.mprog.projects.nPuzzle6072909:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable nl.mprog.projects.nPuzzle6072909:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable nl.mprog.projects.nPuzzle6072909:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable nl.mprog.projects.nPuzzle6072909:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable nl.mprog.projects.nPuzzle6072909:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable nl.mprog.projects.nPuzzle6072909:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle nl.mprog.projects.nPuzzle6072909:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable nl.mprog.projects.nPuzzle6072909:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable nl.mprog.projects.nPuzzle6072909:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground nl.mprog.projects.nPuzzle6072909:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle nl.mprog.projects.nPuzzle6072909:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable nl.mprog.projects.nPuzzle6072909:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle nl.mprog.projects.nPuzzle6072909:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle nl.mprog.projects.nPuzzle6072909:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle nl.mprog.projects.nPuzzle6072909:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor nl.mprog.projects.npuzzle6072909:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground nl.mprog.projects.npuzzle6072909:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle nl.mprog.projects.npuzzle6072909:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable nl.mprog.projects.npuzzle6072909:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable nl.mprog.projects.npuzzle6072909:actionModeCopyDrawable}</code></td><td> Drawable to use for the Copy action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable nl.mprog.projects.npuzzle6072909:actionModeCutDrawable}</code></td><td> Drawable to use for the Cut action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable nl.mprog.projects.npuzzle6072909:actionModeFindDrawable}</code></td><td> Drawable to use for the Find action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable nl.mprog.projects.npuzzle6072909:actionModePasteDrawable}</code></td><td> Drawable to use for the Paste action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle nl.mprog.projects.npuzzle6072909:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable nl.mprog.projects.npuzzle6072909:actionModeSelectAllDrawable}</code></td><td> Drawable to use for the Select all action button in Contextual Action Bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable nl.mprog.projects.npuzzle6072909:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground nl.mprog.projects.npuzzle6072909:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle nl.mprog.projects.npuzzle6072909:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable nl.mprog.projects.npuzzle6072909:actionModeWebSearchDrawable}</code></td><td> Drawable to use for the Web Search action button in WebView selection action modes </td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle nl.mprog.projects.npuzzle6072909:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle nl.mprog.projects.npuzzle6072909:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle nl.mprog.projects.npuzzle6072909:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle nl.mprog.projects.nPuzzle6072909:buttonBarButtonStyle}</code></td><td> A style that may be applied to Buttons placed within a
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle nl.mprog.projects.npuzzle6072909:buttonBarButtonStyle}</code></td><td> A style that may be applied to Buttons placed within a
              LinearLayout with the style buttonBarStyle to form a button bar.</td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle nl.mprog.projects.nPuzzle6072909:buttonBarStyle}</code></td><td> A style that may be applied to horizontal LinearLayouts
+           <tr><td><code>{@link #Theme_buttonBarStyle nl.mprog.projects.npuzzle6072909:buttonBarStyle}</code></td><td> A style that may be applied to horizontal LinearLayouts
          to form a button bar.</td></tr>
-           <tr><td><code>{@link #Theme_colorAccent nl.mprog.projects.nPuzzle6072909:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal nl.mprog.projects.nPuzzle6072909:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated nl.mprog.projects.nPuzzle6072909:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight nl.mprog.projects.nPuzzle6072909:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal nl.mprog.projects.nPuzzle6072909:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary nl.mprog.projects.nPuzzle6072909:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark nl.mprog.projects.nPuzzle6072909:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal nl.mprog.projects.nPuzzle6072909:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal nl.mprog.projects.nPuzzle6072909:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical nl.mprog.projects.nPuzzle6072909:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle nl.mprog.projects.nPuzzle6072909:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight nl.mprog.projects.nPuzzle6072909:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground nl.mprog.projects.nPuzzle6072909:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
-           <tr><td><code>{@link #Theme_editTextColor nl.mprog.projects.nPuzzle6072909:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator nl.mprog.projects.nPuzzle6072909:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator nl.mprog.projects.nPuzzle6072909:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle nl.mprog.projects.nPuzzle6072909:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight nl.mprog.projects.nPuzzle6072909:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge nl.mprog.projects.nPuzzle6072909:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall nl.mprog.projects.nPuzzle6072909:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft nl.mprog.projects.nPuzzle6072909:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight nl.mprog.projects.nPuzzle6072909:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
-           <tr><td><code>{@link #Theme_panelBackground nl.mprog.projects.nPuzzle6072909:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme nl.mprog.projects.nPuzzle6072909:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth nl.mprog.projects.nPuzzle6072909:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle nl.mprog.projects.nPuzzle6072909:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle nl.mprog.projects.nPuzzle6072909:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle nl.mprog.projects.nPuzzle6072909:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground nl.mprog.projects.nPuzzle6072909:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
+           <tr><td><code>{@link #Theme_colorAccent nl.mprog.projects.npuzzle6072909:colorAccent}</code></td><td> Bright complement to the primary branding color.</td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal nl.mprog.projects.npuzzle6072909:colorButtonNormal}</code></td><td> The color applied to framework buttons in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated nl.mprog.projects.npuzzle6072909:colorControlActivated}</code></td><td> The color applied to framework controls in their activated (ex.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight nl.mprog.projects.npuzzle6072909:colorControlHighlight}</code></td><td> The color applied to framework control highlights (ex.</td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal nl.mprog.projects.npuzzle6072909:colorControlNormal}</code></td><td> The color applied to framework controls in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary nl.mprog.projects.npuzzle6072909:colorPrimary}</code></td><td> The primary branding color for the app.</td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark nl.mprog.projects.npuzzle6072909:colorPrimaryDark}</code></td><td> Dark variant of the primary branding color.</td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal nl.mprog.projects.npuzzle6072909:colorSwitchThumbNormal}</code></td><td> The color applied to framework switch thumbs in their normal state.</td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal nl.mprog.projects.npuzzle6072909:dividerHorizontal}</code></td><td> A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical nl.mprog.projects.npuzzle6072909:dividerVertical}</code></td><td> A drawable that may be used as a vertical divider between visual elements.</td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle nl.mprog.projects.npuzzle6072909:dropDownListViewStyle}</code></td><td> ListPopupWindow compatibility </td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight nl.mprog.projects.npuzzle6072909:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground nl.mprog.projects.npuzzle6072909:editTextBackground}</code></td><td> EditText background drawable.</td></tr>
+           <tr><td><code>{@link #Theme_editTextColor nl.mprog.projects.npuzzle6072909:editTextColor}</code></td><td> EditText text foreground color.</td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator nl.mprog.projects.npuzzle6072909:homeAsUpIndicator}</code></td><td> Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator nl.mprog.projects.npuzzle6072909:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle nl.mprog.projects.npuzzle6072909:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight nl.mprog.projects.npuzzle6072909:listPreferredItemHeight}</code></td><td> The preferred list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge nl.mprog.projects.npuzzle6072909:listPreferredItemHeightLarge}</code></td><td> A larger, more robust list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall nl.mprog.projects.npuzzle6072909:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft nl.mprog.projects.npuzzle6072909:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight nl.mprog.projects.npuzzle6072909:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
+           <tr><td><code>{@link #Theme_panelBackground nl.mprog.projects.npuzzle6072909:panelBackground}</code></td><td> The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme nl.mprog.projects.npuzzle6072909:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth nl.mprog.projects.npuzzle6072909:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle nl.mprog.projects.npuzzle6072909:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle nl.mprog.projects.npuzzle6072909:popupWindowStyle}</code></td><td> Default PopupWindow style.</td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle nl.mprog.projects.npuzzle6072909:searchViewStyle}</code></td><td> Style for the search query widget.</td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground nl.mprog.projects.npuzzle6072909:selectableItemBackground}</code></td><td> A style that may be applied to buttons or other selectable items
              that should react to pressed and focus states, but that do not
              have a clear visual border along the edges.</td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless nl.mprog.projects.nPuzzle6072909:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle nl.mprog.projects.nPuzzle6072909:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle nl.mprog.projects.nPuzzle6072909:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
-           <tr><td><code>{@link #Theme_switchStyle nl.mprog.projects.nPuzzle6072909:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu nl.mprog.projects.nPuzzle6072909:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem nl.mprog.projects.nPuzzle6072909:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall nl.mprog.projects.nPuzzle6072909:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle nl.mprog.projects.nPuzzle6072909:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle nl.mprog.projects.nPuzzle6072909:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu nl.mprog.projects.nPuzzle6072909:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl nl.mprog.projects.nPuzzle6072909:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle nl.mprog.projects.nPuzzle6072909:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle nl.mprog.projects.nPuzzle6072909:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar nl.mprog.projects.nPuzzle6072909:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless nl.mprog.projects.npuzzle6072909:selectableItemBackgroundBorderless}</code></td><td> Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle nl.mprog.projects.npuzzle6072909:spinnerDropDownItemStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle nl.mprog.projects.npuzzle6072909:spinnerStyle}</code></td><td> Default Spinner style.</td></tr>
+           <tr><td><code>{@link #Theme_switchStyle nl.mprog.projects.npuzzle6072909:switchStyle}</code></td><td> Default style for the Switch widget.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu nl.mprog.projects.npuzzle6072909:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem nl.mprog.projects.npuzzle6072909:textAppearanceListItem}</code></td><td> The preferred TextAppearance for the primary text of list items.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall nl.mprog.projects.npuzzle6072909:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle nl.mprog.projects.npuzzle6072909:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle nl.mprog.projects.npuzzle6072909:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu nl.mprog.projects.npuzzle6072909:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl nl.mprog.projects.npuzzle6072909:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search </td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle nl.mprog.projects.npuzzle6072909:toolbarNavigationButtonStyle}</code></td><td> Default Toolar NavigationButtonStyle </td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle nl.mprog.projects.npuzzle6072909:toolbarStyle}</code></td><td> Default Toolbar style.</td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar nl.mprog.projects.npuzzle6072909:windowActionBar}</code></td><td> Flag indicating whether this window should have an Action Bar
              in place of the usual title bar.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay nl.mprog.projects.nPuzzle6072909:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
+           <tr><td><code>{@link #Theme_windowActionBarOverlay nl.mprog.projects.npuzzle6072909:windowActionBarOverlay}</code></td><td> Flag indicating whether this window's Action Bar should overlay
              application content.</td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay nl.mprog.projects.nPuzzle6072909:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
+           <tr><td><code>{@link #Theme_windowActionModeOverlay nl.mprog.projects.npuzzle6072909:windowActionModeOverlay}</code></td><td> Flag indicating whether action modes should overlay window content
              when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor nl.mprog.projects.nPuzzle6072909:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor nl.mprog.projects.npuzzle6072909:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
              that is, when in portrait.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor nl.mprog.projects.nPuzzle6072909:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor nl.mprog.projects.npuzzle6072909:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor nl.mprog.projects.nPuzzle6072909:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor nl.mprog.projects.npuzzle6072909:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
              that is, when in landscape.</td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor nl.mprog.projects.nPuzzle6072909:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor nl.mprog.projects.npuzzle6072909:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
              that is, when in portrait.</td></tr>
            </table>
            @see #Theme_actionBarDivider
@@ -4580,7 +4594,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarDivider
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 19;
         /**
@@ -4592,7 +4606,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarItemBackground
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
@@ -4605,7 +4619,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarPopupTheme
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
@@ -4632,7 +4646,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarSize
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarSize
         */
         public static final int Theme_actionBarSize = 18;
         /**
@@ -4647,7 +4661,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarSplitStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
@@ -4659,17 +4673,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarTabBarStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
@@ -4681,17 +4695,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarTabStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarTabTextStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
@@ -4705,7 +4719,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarTheme
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 16;
         /**
@@ -4723,7 +4737,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionBarWidgetTheme
+          @attr name nl.mprog.projects.npuzzle6072909:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
@@ -4735,7 +4749,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionButtonStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
@@ -4747,7 +4761,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionDropDownStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
@@ -4760,7 +4774,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionMenuTextAppearance
+          @attr name nl.mprog.projects.npuzzle6072909:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
@@ -4775,7 +4789,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionMenuTextColor
+          @attr name nl.mprog.projects.npuzzle6072909:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
@@ -4787,17 +4801,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeBackground
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeCloseButtonStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
@@ -4809,7 +4823,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeCloseDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
@@ -4821,7 +4835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeCopyDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
@@ -4833,7 +4847,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeCutDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
@@ -4845,7 +4859,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeFindDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
@@ -4857,7 +4871,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModePasteDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
@@ -4869,7 +4883,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModePopupWindowStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
@@ -4881,7 +4895,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeSelectAllDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
@@ -4893,7 +4907,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeShareDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
@@ -4905,17 +4919,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeSplitBackground
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 23;
         /**
@@ -4927,27 +4941,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:actionModeWebSearchDrawable
+          @attr name nl.mprog.projects.npuzzle6072909:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:actionOverflowButtonStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:actionOverflowMenuStyle
+          @attr name nl.mprog.projects.npuzzle6072909:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
@@ -4959,7 +4973,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:activityChooserViewStyle
+          @attr name nl.mprog.projects.npuzzle6072909:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 50;
         /**
@@ -4978,7 +4992,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:buttonBarButtonStyle
+          @attr name nl.mprog.projects.npuzzle6072909:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
@@ -4991,7 +5005,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:buttonBarStyle
+          @attr name nl.mprog.projects.npuzzle6072909:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
@@ -5009,7 +5023,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorAccent
+          @attr name nl.mprog.projects.npuzzle6072909:colorAccent
         */
         public static final int Theme_colorAccent = 77;
         /**
@@ -5026,7 +5040,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorButtonNormal
+          @attr name nl.mprog.projects.npuzzle6072909:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
@@ -5043,7 +5057,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorControlActivated
+          @attr name nl.mprog.projects.npuzzle6072909:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 79;
         /**
@@ -5060,7 +5074,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorControlHighlight
+          @attr name nl.mprog.projects.npuzzle6072909:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
@@ -5077,7 +5091,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorControlNormal
+          @attr name nl.mprog.projects.npuzzle6072909:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 78;
         /**
@@ -5095,7 +5109,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorPrimary
+          @attr name nl.mprog.projects.npuzzle6072909:colorPrimary
         */
         public static final int Theme_colorPrimary = 75;
         /**
@@ -5113,7 +5127,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorPrimaryDark
+          @attr name nl.mprog.projects.npuzzle6072909:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
@@ -5130,7 +5144,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:colorSwitchThumbNormal
+          @attr name nl.mprog.projects.npuzzle6072909:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
@@ -5142,7 +5156,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:dividerHorizontal
+          @attr name nl.mprog.projects.npuzzle6072909:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
@@ -5154,7 +5168,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:dividerVertical
+          @attr name nl.mprog.projects.npuzzle6072909:dividerVertical
         */
         public static final int Theme_dividerVertical = 48;
         /**
@@ -5166,7 +5180,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:dropDownListViewStyle
+          @attr name nl.mprog.projects.npuzzle6072909:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
@@ -5184,7 +5198,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:dropdownListPreferredItemHeight
+          @attr name nl.mprog.projects.npuzzle6072909:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
@@ -5196,7 +5210,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:editTextBackground
+          @attr name nl.mprog.projects.npuzzle6072909:editTextBackground
         */
         public static final int Theme_editTextBackground = 56;
         /**
@@ -5210,7 +5224,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:editTextColor
+          @attr name nl.mprog.projects.npuzzle6072909:editTextColor
         */
         public static final int Theme_editTextColor = 55;
         /**
@@ -5222,7 +5236,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:homeAsUpIndicator
+          @attr name nl.mprog.projects.npuzzle6072909:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
@@ -5234,17 +5248,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:listChoiceBackgroundIndicator
+          @attr name nl.mprog.projects.npuzzle6072909:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:listPopupWindowStyle
+          @attr name nl.mprog.projects.npuzzle6072909:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
@@ -5262,7 +5276,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:listPreferredItemHeight
+          @attr name nl.mprog.projects.npuzzle6072909:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
@@ -5280,7 +5294,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:listPreferredItemHeightLarge
+          @attr name nl.mprog.projects.npuzzle6072909:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
@@ -5298,7 +5312,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:listPreferredItemHeightSmall
+          @attr name nl.mprog.projects.npuzzle6072909:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
@@ -5316,7 +5330,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:listPreferredItemPaddingLeft
+          @attr name nl.mprog.projects.npuzzle6072909:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
@@ -5334,7 +5348,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:listPreferredItemPaddingRight
+          @attr name nl.mprog.projects.npuzzle6072909:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
@@ -5346,7 +5360,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:panelBackground
+          @attr name nl.mprog.projects.npuzzle6072909:panelBackground
         */
         public static final int Theme_panelBackground = 71;
         /**
@@ -5358,7 +5372,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:panelMenuListTheme
+          @attr name nl.mprog.projects.npuzzle6072909:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
@@ -5376,7 +5390,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:panelMenuListWidth
+          @attr name nl.mprog.projects.npuzzle6072909:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
@@ -5388,7 +5402,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:popupMenuStyle
+          @attr name nl.mprog.projects.npuzzle6072909:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
@@ -5400,7 +5414,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:popupWindowStyle
+          @attr name nl.mprog.projects.npuzzle6072909:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
@@ -5412,7 +5426,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:searchViewStyle
+          @attr name nl.mprog.projects.npuzzle6072909:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 61;
         /**
@@ -5426,7 +5440,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:selectableItemBackground
+          @attr name nl.mprog.projects.npuzzle6072909:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
@@ -5438,7 +5452,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:selectableItemBackgroundBorderless
+          @attr name nl.mprog.projects.npuzzle6072909:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
@@ -5450,7 +5464,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:spinnerDropDownItemStyle
+          @attr name nl.mprog.projects.npuzzle6072909:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
@@ -5462,7 +5476,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:spinnerStyle
+          @attr name nl.mprog.projects.npuzzle6072909:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 40;
         /**
@@ -5474,7 +5488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:switchStyle
+          @attr name nl.mprog.projects.npuzzle6072909:switchStyle
         */
         public static final int Theme_switchStyle = 57;
         /**
@@ -5486,7 +5500,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAppearanceLargePopupMenu
+          @attr name nl.mprog.projects.npuzzle6072909:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
@@ -5498,7 +5512,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAppearanceListItem
+          @attr name nl.mprog.projects.npuzzle6072909:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
@@ -5510,7 +5524,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAppearanceListItemSmall
+          @attr name nl.mprog.projects.npuzzle6072909:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
@@ -5522,7 +5536,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAppearanceSearchResultSubtitle
+          @attr name nl.mprog.projects.npuzzle6072909:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
@@ -5534,7 +5548,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAppearanceSearchResultTitle
+          @attr name nl.mprog.projects.npuzzle6072909:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
@@ -5546,7 +5560,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textAppearanceSmallPopupMenu
+          @attr name nl.mprog.projects.npuzzle6072909:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
@@ -5560,7 +5574,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:textColorSearchUrl
+          @attr name nl.mprog.projects.npuzzle6072909:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
@@ -5572,7 +5586,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:toolbarNavigationButtonStyle
+          @attr name nl.mprog.projects.npuzzle6072909:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
@@ -5584,7 +5598,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:toolbarStyle
+          @attr name nl.mprog.projects.npuzzle6072909:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 51;
         /**
@@ -5601,7 +5615,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowActionBar
+          @attr name nl.mprog.projects.npuzzle6072909:windowActionBar
         */
         public static final int Theme_windowActionBar = 1;
         /**
@@ -5619,7 +5633,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowActionBarOverlay
+          @attr name nl.mprog.projects.npuzzle6072909:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
@@ -5636,7 +5650,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowActionModeOverlay
+          @attr name nl.mprog.projects.npuzzle6072909:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
@@ -5659,7 +5673,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowFixedHeightMajor
+          @attr name nl.mprog.projects.npuzzle6072909:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
@@ -5682,7 +5696,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowFixedHeightMinor
+          @attr name nl.mprog.projects.npuzzle6072909:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
@@ -5705,7 +5719,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowFixedWidthMajor
+          @attr name nl.mprog.projects.npuzzle6072909:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
@@ -5728,7 +5742,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:windowFixedWidthMinor
+          @attr name nl.mprog.projects.npuzzle6072909:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 6;
         /** Attributes that can be used with a Toolbar.
@@ -5739,33 +5753,33 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td> Allows us to read in the minHeight attr pre-v16 </td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity nl.mprog.projects.nPuzzle6072909:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon nl.mprog.projects.nPuzzle6072909:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd nl.mprog.projects.nPuzzle6072909:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft nl.mprog.projects.nPuzzle6072909:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight nl.mprog.projects.nPuzzle6072909:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart nl.mprog.projects.nPuzzle6072909:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight nl.mprog.projects.nPuzzle6072909:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription nl.mprog.projects.nPuzzle6072909:navigationContentDescription}</code></td><td> Text to set as the content description for the navigation button
+           <tr><td><code>{@link #Toolbar_collapseContentDescription nl.mprog.projects.npuzzle6072909:collapseContentDescription}</code></td><td> Text to set as the content description for the collapse button.</td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon nl.mprog.projects.npuzzle6072909:collapseIcon}</code></td><td> Icon drawable to use for the collapse button.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd nl.mprog.projects.npuzzle6072909:contentInsetEnd}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft nl.mprog.projects.npuzzle6072909:contentInsetLeft}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight nl.mprog.projects.npuzzle6072909:contentInsetRight}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart nl.mprog.projects.npuzzle6072909:contentInsetStart}</code></td><td> Minimum inset for content views within a bar.</td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight nl.mprog.projects.npuzzle6072909:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription nl.mprog.projects.npuzzle6072909:navigationContentDescription}</code></td><td> Text to set as the content description for the navigation button
              located at the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon nl.mprog.projects.nPuzzle6072909:navigationIcon}</code></td><td> Icon drawable to use for the navigation button located at
+           <tr><td><code>{@link #Toolbar_navigationIcon nl.mprog.projects.npuzzle6072909:navigationIcon}</code></td><td> Icon drawable to use for the navigation button located at
              the start of the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme nl.mprog.projects.nPuzzle6072909:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
+           <tr><td><code>{@link #Toolbar_popupTheme nl.mprog.projects.npuzzle6072909:popupTheme}</code></td><td> Reference to a theme that should be used to inflate popups
              shown by widgets in the toolbar.</td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle nl.mprog.projects.nPuzzle6072909:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance nl.mprog.projects.nPuzzle6072909:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme nl.mprog.projects.nPuzzle6072909:theme}</code></td><td> Specifies a theme override for a view.</td></tr>
-           <tr><td><code>{@link #Toolbar_title nl.mprog.projects.nPuzzle6072909:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom nl.mprog.projects.nPuzzle6072909:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd nl.mprog.projects.nPuzzle6072909:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart nl.mprog.projects.nPuzzle6072909:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop nl.mprog.projects.nPuzzle6072909:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins nl.mprog.projects.nPuzzle6072909:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance nl.mprog.projects.nPuzzle6072909:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle nl.mprog.projects.npuzzle6072909:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance nl.mprog.projects.npuzzle6072909:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme nl.mprog.projects.npuzzle6072909:theme}</code></td><td> Specifies a theme override for a view.</td></tr>
+           <tr><td><code>{@link #Toolbar_title nl.mprog.projects.npuzzle6072909:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom nl.mprog.projects.npuzzle6072909:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd nl.mprog.projects.npuzzle6072909:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart nl.mprog.projects.npuzzle6072909:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop nl.mprog.projects.npuzzle6072909:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins nl.mprog.projects.npuzzle6072909:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance nl.mprog.projects.npuzzle6072909:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
-           @see #Toolbar_buttonGravity
+           @see #Toolbar_collapseContentDescription
            @see #Toolbar_collapseIcon
            @see #Toolbar_contentInsetEnd
            @see #Toolbar_contentInsetLeft
@@ -5810,32 +5824,33 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#buttonGravity}
-          attribute's value can be found in the {@link #Toolbar} array.
+          <p>
+          @attr description
+           Text to set as the content description for the collapse button. 
 
 
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td> Push object to the top of its container, not changing its size. </td></tr>
-<tr><td><code>bottom</code></td><td>0x50</td><td> Push object to the bottom of its container, not changing its size. </td></tr>
-</table>
-          @attr name nl.mprog.projects.nPuzzle6072909:buttonGravity
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name nl.mprog.projects.npuzzle6072909:collapseContentDescription
         */
-        public static final int Toolbar_buttonGravity = 18;
+        public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#collapseIcon}
-          attribute's value can be found in the {@link #Toolbar} array.
+          <p>
+          @attr description
+           Icon drawable to use for the collapse button. 
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:collapseIcon
+          <p>This is a private symbol.
+          @attr name nl.mprog.projects.npuzzle6072909:collapseIcon
         */
-        public static final int Toolbar_collapseIcon = 19;
+        public static final int Toolbar_collapseIcon = 18;
         /**
           <p>
           @attr description
@@ -5852,7 +5867,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetEnd
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
@@ -5871,7 +5886,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetLeft
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
@@ -5890,7 +5905,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetRight
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
@@ -5909,11 +5924,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:contentInsetStart
+          @attr name nl.mprog.projects.npuzzle6072909:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5925,7 +5940,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:maxButtonHeight
+          @attr name nl.mprog.projects.npuzzle6072909:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
@@ -5942,7 +5957,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:navigationContentDescription
+          @attr name nl.mprog.projects.npuzzle6072909:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
@@ -5955,7 +5970,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:navigationIcon
+          @attr name nl.mprog.projects.npuzzle6072909:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
@@ -5968,7 +5983,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:popupTheme
+          @attr name nl.mprog.projects.npuzzle6072909:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
@@ -5984,17 +5999,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:subtitle
+          @attr name nl.mprog.projects.npuzzle6072909:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:subtitleTextAppearance
+          @attr name nl.mprog.projects.npuzzle6072909:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
@@ -6009,11 +6024,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:theme
+          @attr name nl.mprog.projects.npuzzle6072909:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#title}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6023,11 +6038,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:title
+          @attr name nl.mprog.projects.npuzzle6072909:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6039,11 +6054,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleMarginBottom
+          @attr name nl.mprog.projects.npuzzle6072909:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6055,11 +6070,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleMarginEnd
+          @attr name nl.mprog.projects.npuzzle6072909:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6071,11 +6086,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleMarginStart
+          @attr name nl.mprog.projects.npuzzle6072909:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6087,11 +6102,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleMarginTop
+          @attr name nl.mprog.projects.npuzzle6072909:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6103,17 +6118,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name nl.mprog.projects.nPuzzle6072909:titleMargins
+          @attr name nl.mprog.projects.npuzzle6072909:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link nl.mprog.projects.nPuzzle6072909.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link nl.mprog.projects.npuzzle6072909.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name nl.mprog.projects.nPuzzle6072909:titleTextAppearance
+          @attr name nl.mprog.projects.npuzzle6072909:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -6123,8 +6138,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td> Boolean that controls whether a view can take focus.</td></tr>
-           <tr><td><code>{@link #View_paddingEnd nl.mprog.projects.nPuzzle6072909:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-           <tr><td><code>{@link #View_paddingStart nl.mprog.projects.nPuzzle6072909:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd nl.mprog.projects.npuzzle6072909:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart nl.mprog.projects.npuzzle6072909:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -6162,7 +6177,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:paddingEnd
+          @attr name nl.mprog.projects.npuzzle6072909:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
@@ -6180,7 +6195,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name nl.mprog.projects.nPuzzle6072909:paddingStart
+          @attr name nl.mprog.projects.npuzzle6072909:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.
