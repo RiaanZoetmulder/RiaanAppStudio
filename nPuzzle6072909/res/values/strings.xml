@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nPuzzle6072909</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_play">GamePlay</string>
+    <string name="title_activity_test_dialog">TestDialog</string>
+
+    <string-array name="myarray">
+        <item>easy</item>
+        <item>difficult</item>
+        <item>hard</item>
+    </string-array>
+
+    <string name="title_activity_you_win">YouWin</string>
+    <string name="title_activity_custom_view">CustomView</string>
+
+</resources>
