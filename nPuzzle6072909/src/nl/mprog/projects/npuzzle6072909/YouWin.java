@@ -6,7 +6,6 @@
  * prints a congratulatory message and starts music, has a return button to the imageselection screen.
  * 
  * Methods: onCreate: sets the image, starts the music and implements the return button
- * 
  */
 package nl.mprog.projects.npuzzle6072909;
 
